@@ -1,0 +1,26 @@
+{
+  "name": "@lerna-demo/core",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sibo_huang <18813295951@163.com>",
+  "license": "ISC",
+  "keywords": [],
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.taobao.org/"
+  },
+  "dependencies": {
+    "@lerna-demo/utils": "^1.0.0",
+    "chalk": "^5.0.0"
+  }
+}
